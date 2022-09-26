@@ -10,29 +10,38 @@ router.get('/', (req, res) => {
     catch (err) {console.error(err);}
 });
 
-// router.get('/:id', (req, res) => {
-//   const productId = Number.parseInt(req.params.id);
-//   const product = data.find((product) => product.id === productId);
-//   res.json(product);
-// });
+router.get('/:id', (req, res) => {
+  const studentId = Number.parseInt(req.params.id);
+  const student = data.find((student) => student.id === studentId);
+  res.json(student);
+});
 
-// let currentProductId = 9;
-// router.post('/', (req, res) => {
-//   const { name, imageURL, type } = req.body;
-//   const product = {
-//     id: ++currentProductId,
-//     name,
-//     imageURL,
-//     type
-//   };
-//   data.push(product);
-//   res.json(product);
-// });
+let currentstudentId = 2;
+router.post('/', (req, res) => {
+  const { 
+    no, name, imageURL, faculty, major, reserve, statusReserve, buildingNo,roomNo
+    } = req.body;
+  const student = {
+    id: ++currentstudentId,
+    no,
+    name,
+    imageURL,
+    faculty,
+    major,
+    reserve:{
+        statusReserve,
+        buildingNo,
+        roomNo,
+    }
+  };
+  data.push(student);
+  res.json(student);
+});
 
 // router.put('/:id', (req, res) => {
 //   const { name, imageURL, type } = req.body;
-//   const productId = Number.parseInt(req.params.id);
-//   const product = data.find((product) => product.id === productId);
+//   const studentId = Number.parseInt(req.params.id);
+//   const product = data.find((product) => product.id === studentId);
 
 //   product.name = name;
 //   product.imageURL = imageURL;
@@ -42,8 +51,8 @@ router.get('/', (req, res) => {
 // });
 
 // router.delete('/:id', (req, res) => {
-//   const productId = Number.parseInt(req.params.id);
-//   const productIndex = data.findIndex((product) => product.id === productId);
+//   const studentId = Number.parseInt(req.params.id);
+//   const productIndex = data.findIndex((product) => product.id === studentId);
 //   data.splice(productIndex, 1);
 //   res.sendStatus(204);
 // });
