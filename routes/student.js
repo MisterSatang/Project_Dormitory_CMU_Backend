@@ -4,7 +4,10 @@ const data = require('../data/student');
 const router = express.Router();
 
 router.get('/', (req, res) => {
-    res.json(data);
+    try {
+        res.json(data);
+    }
+    catch (err) {console.error(err);}
 });
 
 // router.get('/:id', (req, res) => {
