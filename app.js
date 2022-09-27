@@ -20,14 +20,10 @@ app.use(express.json());
 app.use(express.urlencoded({ extended: false }));
 app.use(cors())
 
-
 app.use('/adminSettings', adminSettingRouter);
 app.use('/students', studentRouter);
 app.use('/dormitories', domitoryRouter);
 app.use('/rooms', roomsRouter);
-
-
-
 
 app.get('/', (req,res) => {
     res.sendStatus(204)

@@ -34,31 +34,28 @@ router.post('/', (req, res) => {
 });
 
 router.put('/:id', (req, res) => {
-  const { 
-    no, name, imageURL, faculty, major ,reserve
+    const { 
+        buildingNo, sex, name
     } = req.body;
-  const studentId = Number.parseInt(req.params.id);
-  const student = data.find((student) => student.id === studentId);
+    const dormitoryId = Number.parseInt(req.params.id);
+    const dormitory = data.find((dormitory) => dormitory.id === dormitoryId);
 
-  student.no = no;
-  student.name = name;
-  student.imageURL = imageURL;
-  student.faculty = faculty;
-  student.major = major;
-  student.reserve = reserve;
+    dormitory.buildingNo = buildingNo;
+    dormitory.sex = sex;
+    dormitory.name = name;
 
-  res.json(student);
+    res.json(dormitory);
 });
 
-// router.delete('/:id', (req, res) => {
-//   try {
-//     const studentId = Number.parseInt(req.params.id);
-//     const studentIndex = data.findIndex(student => student.id === studentId);
-//     data.splice(studentIndex, 1);
-//     res.sendStatus(204);
-//   }
-//   catch (err) {console.error(err);}
-// });
+router.delete('/:id', (req, res) => {
+  try {
+    const dormitoryId = Number.parseInt(req.params.id);
+    const dormitoryIndex = data.findIndex(dormitory => dormitory.id === dormitoryId);
+    data.splice(dormitoryIndex, 1);
+    res.sendStatus(204);
+  }
+  catch (err) {console.error(err);}
+});
 
 
 // const x = data.find(item => item.id === 4)
@@ -73,8 +70,6 @@ router.put('/:id', (req, res) => {
 //     ...x.rooms.filter(item => item.id !== 7)
 //   ]
 // }
-
-
 
 
 module.exports = router;
