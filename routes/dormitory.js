@@ -58,18 +58,4 @@ router.delete('/:id', (req, res) => {
 });
 
 
-// const x = data.find(item => item.id === 4)
-// const y = {
-//   ...x,
-//   rooms : [
-//     ...x.rooms,
-//      { id: 10, floor:4, roomNo: '404', numMax:2, numStudent:0},
-//   ]
-//   ...x,
-//   room : [
-//     ...x.rooms.filter(item => item.id !== 7)
-//   ]
-// }
-
-
 module.exports = router;
