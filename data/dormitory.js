@@ -5,7 +5,7 @@ const data = [
   {
     id: 1,
     buildingNo:1,
-    sex: builderFemale,
+    sex: 'builderFemale',
     name: 'หอพักหญิง 1',
     rooms: [
         { id: 1 ,floor:2, roomNo: '201', numMax:4, numStudent:0},
@@ -22,7 +22,7 @@ const data = [
   {
     id: 2,
     buildingNo:2,
-    sex: builderFemale,
+    sex: 'builderFemale',
     name: 'หอพักหญิง 2',
     rooms: [
         { id: 1, floor:2, roomNo: '201', numMax:2, numStudent:0},
@@ -39,7 +39,7 @@ const data = [
   {
     id: 3,
     buildingNo:3,
-    sex:builderMale,
+    sex:'builderMale',
     name: 'หอพักชาย 2',
     rooms: [
         { id: 1 ,floor:2, roomNo: '201', numMax:3, numStudent:0},
@@ -56,7 +56,7 @@ const data = [
   {
     id: 4,
     buildingNo:4,
-    sex:builderMale,
+    sex:'builderMale',
     name: 'หอพักชาย 2',
     rooms: [
         { id: 1, floor:2, roomNo: '201', numMax:2, numStudent:0},
@@ -71,4 +71,5 @@ const data = [
     ],
   },
 ];
+
 module.exports = data;

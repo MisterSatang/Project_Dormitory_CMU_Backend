@@ -12,6 +12,7 @@ console.log('Listening on port 8000');
 const adminSettingRouter = require('./routes/adminSetting.js')
 const studentRouter = require('./routes/student.js')
 const domitoryRouter = require('./routes/dormitory.js')
+const roomsRouter = require('./routes/rooms.js')
 
 app.use(morgan('tiny'));
 
@@ -23,6 +24,9 @@ app.use(cors())
 app.use('/adminSettings', adminSettingRouter);
 app.use('/students', studentRouter);
 app.use('/dormitories', domitoryRouter);
+app.use('/rooms', roomsRouter);
+
+
 
 
 app.get('/', (req,res) => {
