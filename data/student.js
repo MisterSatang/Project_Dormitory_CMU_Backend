@@ -2,7 +2,8 @@
 const data = [
   {
     id: 1,
-    no: 642110329,
+    username: 642110329,
+    password: 123,
     name: 'สตางค์ บุตรสัย',
     imageURL: 'image_dormitory/imageStudent/01.jpg',
     faculty: 'ศิลปะ สื่อ เเละเทคโนโลยี',
@@ -13,7 +14,8 @@ const data = [
   },
   {
     id: 2,
-    no: 642110330,
+    username: 642110330,
+    password: 123,
     name: 'สมมติ สมมาตร',
     imageURL: 'image_dormitory/imageStudent/01.jpg',
     faculty: 'ศิลปะ สื่อ เเละเทคโนโลยี',
@@ -24,7 +26,8 @@ const data = [
   },
   {
     id: 5,
-    no: 642110330,
+    username: 642110330,
+    password: 123,
     name: 'สมมติ สมมาตร',
     imageURL: 'image_dormitory/imageStudent/01.jpg',
     faculty: 'ศิลปะ สื่อ เเละเทคโนโลยี',
@@ -35,7 +38,8 @@ const data = [
   },
   {
     id: 10,
-    no: 642110330,
+    username: 642110330,
+    password: 123,
     name: 'สมมติ สมมาตร',
     imageURL: 'image_dormitory/imageStudent/01.jpg',
     faculty: 'ศิลปะ สื่อ เเละเทคโนโลยี',

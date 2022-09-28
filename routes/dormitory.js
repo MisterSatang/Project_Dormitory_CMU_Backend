@@ -26,6 +26,7 @@ router.post('/', (req, res) => {
     buildingNo,
     sex,
     name,
+    tel,
     rooms:[],
   };
   
@@ -35,7 +36,7 @@ router.post('/', (req, res) => {
 
 router.put('/:id', (req, res) => {
     const { 
-        buildingNo, sex, name
+        buildingNo, sex, name,tel
     } = req.body;
     const dormitoryId = Number.parseInt(req.params.id);
     const dormitory = data.find((dormitory) => dormitory.id === dormitoryId);
@@ -43,6 +44,7 @@ router.put('/:id', (req, res) => {
     dormitory.buildingNo = buildingNo;
     dormitory.sex = sex;
     dormitory.name = name;
+    dormitory.tel = tel;
 
     res.json(dormitory);
 });

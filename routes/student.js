@@ -19,11 +19,12 @@ router.get('/:id', (req, res) => {
 let currentStudentId = 2;
 router.post('/', (req, res) => {
   const { 
-    no, name, imageURL, faculty, major, reserve
+    username,password, name, imageURL, faculty, major, reserve
     } = req.body;
   const student = {
     id: ++currentStudentId,
-    no,
+    username,
+    password,
     name,
     imageURL,
     faculty,
@@ -45,7 +46,8 @@ router.put('/:id', (req, res) => {
   const studentId = Number.parseInt(req.params.id);
   const student = data.find((student) => student.id === studentId);
 
-  student.no = no;
+  student.username = username;
+  student.password = password;
   student.name = name;
   student.imageURL = imageURL;
   student.faculty = faculty;

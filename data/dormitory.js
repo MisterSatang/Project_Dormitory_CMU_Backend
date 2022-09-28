@@ -7,6 +7,7 @@ const data = [
     buildingNo:1,
     sex: 'builderFemale',
     name: 'หอพักหญิง 1',
+    tel: '053944711',
     rooms: [
         { id: 1 ,floor:2, roomNo: '201', numMax:4, numStudent:0},
         { id: 2 ,floor:2, roomNo: '202', numMax:4, numStudent:0},
@@ -24,6 +25,7 @@ const data = [
     buildingNo:2,
     sex: 'builderFemale',
     name: 'หอพักหญิง 2',
+    tel: '053944712',
     rooms: [
         { id: 1, floor:2, roomNo: '201', numMax:2, numStudent:0},
         { id: 2, floor:2, roomNo: '202', numMax:2, numStudent:0},
@@ -41,6 +43,7 @@ const data = [
     buildingNo:3,
     sex:'builderMale',
     name: 'หอพักชาย 2',
+    tel: '053944713',
     rooms: [
         { id: 1 ,floor:2, roomNo: '201', numMax:3, numStudent:0},
         { id: 2 ,floor:2, roomNo: '202', numMax:3, numStudent:0},
@@ -58,6 +61,7 @@ const data = [
     buildingNo:4,
     sex:'builderMale',
     name: 'หอพักชาย 2',
+    tel: '053944714',
     rooms: [
         { id: 1, floor:2, roomNo: '201', numMax:2, numStudent:0},
         { id: 2, floor:2, roomNo: '202', numMax:2, numStudent:0},
