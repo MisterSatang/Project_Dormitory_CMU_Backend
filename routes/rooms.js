@@ -11,14 +11,14 @@ router.post('/:id', (req, res) => {
     let currentRoomId = dataDormitoryID.rooms.length;
     
     const {
-        floor,roomNo,numMax,numStudent
+        floor,roomNo,numMax
     } = req.body;
     const room = {
         id: ++currentRoomId,
         floor,
         roomNo,
         numMax,
-        numStudent,
+        numStudent:0
     };
 
     dataDormitoryID.rooms.push(room);
