@@ -1,6 +1,6 @@
 
 const data = 
   {
-    isAvailableReserve: true,
+    disableReserve: false,
   };
 module.exports = data;

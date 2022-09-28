@@ -12,8 +12,8 @@ router.get('/', (req, res) => {
 
 router.put('/', (req, res) => {
     console.log(data)
-  const { isAvailableReserve } = req.body;
-  data.isAvailableReserve = isAvailableReserve;
+  const { disableReserve } = req.body;
+  data.disableReserve = disableReserve;
 
   res.json(data);
 });

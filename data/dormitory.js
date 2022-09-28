@@ -5,6 +5,7 @@ const data = [
   {
     id: 1,
     buildingNo:1,
+    floor:4,
     sex: 'builderFemale',
     name: 'หอพักหญิง 1',
     tel: '053944711',
@@ -23,6 +24,7 @@ const data = [
   {
     id: 2,
     buildingNo:2,
+    floor:4,
     sex: 'builderFemale',
     name: 'หอพักหญิง 2',
     tel: '053944712',
@@ -41,6 +43,7 @@ const data = [
   {
     id: 3,
     buildingNo:3,
+    floor:4,
     sex:'builderMale',
     name: 'หอพักชาย 2',
     tel: '053944713',
@@ -59,6 +62,7 @@ const data = [
   {
     id: 4,
     buildingNo:4,
+    floor:4,
     sex:'builderMale',
     name: 'หอพักชาย 2',
     tel: '053944714',
