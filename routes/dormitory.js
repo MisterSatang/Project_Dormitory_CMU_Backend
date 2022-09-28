@@ -19,7 +19,7 @@ router.get('/:id', (req, res) => {
 let currentDormitoryId = 4;
 router.post('/', (req, res) => {
   const { 
-    buildingNo,floor, sex, name
+    buildingNo,floor, sex, name,tel
     } = req.body;
   const dormitory = {
     id: ++currentDormitoryId,

@@ -45,7 +45,7 @@ const data = [
     buildingNo:3,
     floor:4,
     sex:'builderMale',
-    name: 'หอพักชาย 2',
+    name: 'หอพักชาย 1',
     tel: '053944713',
     rooms: [
         { id: 1 ,floor:2, roomNo: '201', numMax:3, numStudent:0},
