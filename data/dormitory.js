@@ -47,9 +47,9 @@ const data = [
     name: "หอพักชาย 1",
     tel: "053944713",
     rooms: [
-      { id: 19, floor: 2, roomNo: "201", numMax: 3, numStudent: 0 },
+      { id: 19, floor: 2, roomNo: "201", numMax: 3, numStudent: 2 },
       { id: 20, floor: 2, roomNo: "202", numMax: 3, numStudent: 0 },
-      { id: 21, floor: 2, roomNo: "203", numMax: 3, numStudent: 0 },
+      { id: 21, floor: 2, roomNo: "203", numMax: 3, numStudent: 3 },
       { id: 22, floor: 3, roomNo: "301", numMax: 3, numStudent: 0 },
       { id: 23, floor: 3, roomNo: "302", numMax: 3, numStudent: 0 },
       { id: 24, floor: 3, roomNo: "303", numMax: 3, numStudent: 0 },

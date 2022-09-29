@@ -33,6 +33,7 @@ router.get("/", (req, res) => {
     //   for()
     // });
     console.log({ room: room.map((v) => v.rooms) });
+    console.log(room);
     res.json(room);
   } catch (err) {
     console.error(err);
