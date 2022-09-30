@@ -6,7 +6,8 @@ const data = [
     firsname: "สตางค์",
     lastname: "บุตรสัย",
     sex: "Male",
-    imageURL: "image_dormitory/imageStudent/01.jpg",
+    imageURL:
+      "http://2baht.com/wp-content/uploads/2016/09/img-worlds-of-adventure-new-low.jpg",
     faculty: "ศิลปะ สื่อ เเละเทคโนโลยี",
     major: "บูรณาการอุตสาหกรรมดิจิทัล",
     roomID: null,
