@@ -9,6 +9,7 @@ const data = [
     imageURL: "image_dormitory/imageStudent/01.jpg",
     faculty: "ศิลปะ สื่อ เเละเทคโนโลยี",
     major: "บูรณาการอุตสาหกรรมดิจิทัล",
+    roomID: null,
     statusReserve: false,
     roomID: 0,
     buildingNo: 0,
@@ -524,6 +525,5 @@ const data = [
     buildingNo: 4,
     roomNo: "303",
   },
-  
 ];
 module.exports = data;

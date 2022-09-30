@@ -40,11 +40,12 @@ router.post("/", (req, res) => {
 });
 
 router.put("/:id", (req, res) => {
-  const { statusReserve, buildingNo, roomNo } = req.body;
+  const { statusReserve, roomID, buildingNo, roomNo } = req.body;
   const studentId = Number.parseInt(req.params.id);
   const student = data.find((student) => student.id === studentId);
 
   student.statusReserve = statusReserve;
+  student.roomID = roomID;
   student.buildingNo = buildingNo;
   student.roomNo = roomNo;
 
