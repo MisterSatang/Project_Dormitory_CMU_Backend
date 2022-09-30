@@ -35,7 +35,7 @@ const data = [
     password: 333,
     firsname: "นฤมล",
     lastname: "จีนเจือพันธ์ุ",
-    sex: "female",
+    sex: "Female",
     imageURL: "image_dormitory/imageStudent/01.jpg",
     faculty: "ศิลปะ สื่อ เเละเทคโนโลยี",
     major: "บูรณาการอุตสาหกรรมดิจิทัล",
