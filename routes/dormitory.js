@@ -46,12 +46,6 @@ router.get("/:id", (req, res) => {
   res.json(dormitory);
 });
 
-router.get("/:id", (req, res) => {
-  const dormitoryId = Number.parseInt(req.params.id);
-  const dormitory = data.find((dormitory) => dormitory.id === dormitoryId);
-  res.json(dormitory);
-});
-
 let currentDormitoryId = 4;
 router.post("/", (req, res) => {
   const { buildingNo, floor, sex, name, tel } = req.body;
