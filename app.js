@@ -13,6 +13,7 @@ const adminSettingRouter = require("./routes/adminSetting.js");
 const studentRouter = require("./routes/student.js");
 const domitoryRouter = require("./routes/dormitory.js");
 const roomsRouter = require("./routes/rooms.js");
+const gelleriesRouter = require("./routes/gallery.js");
 
 app.use(morgan("tiny"));
 
@@ -25,6 +26,7 @@ app.use("/adminSettings", adminSettingRouter);
 app.use("/students", studentRouter);
 app.use("/dormitories", domitoryRouter);
 app.use("/rooms", roomsRouter);
+app.use("/gelleries", gelleriesRouter);
 
 app.get("/", (req, res) => {
   res.sendStatus(204);

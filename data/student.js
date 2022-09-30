@@ -6,7 +6,8 @@ const data = [
     firsname: "สตางค์",
     lastname: "บุตรสัย",
     sex: "Male",
-    imageURL: "https://scontent.fcnx4-1.fna.fbcdn.net/v/t39.30808-6/278629679_1386830931744413_2232918513746352097_n.jpg?_nc_cat=100&ccb=1-7&_nc_sid=09cbfe&_nc_ohc=qXsi4-WFNloAX_jNuR2&_nc_ht=scontent.fcnx4-1.fna&oh=00_AT9qrf5WpmCSJVONiDsOMhhQceXSUrdA0Rb-siQlfIYTGA&oe=633B6FE2",
+    imageURL:
+      "https://scontent.fcnx4-1.fna.fbcdn.net/v/t39.30808-6/278629679_1386830931744413_2232918513746352097_n.jpg?_nc_cat=100&ccb=1-7&_nc_sid=09cbfe&_nc_ohc=qXsi4-WFNloAX_jNuR2&_nc_ht=scontent.fcnx4-1.fna&oh=00_AT9qrf5WpmCSJVONiDsOMhhQceXSUrdA0Rb-siQlfIYTGA&oe=633B6FE2",
     faculty: "ศิลปะ สื่อ เเละเทคโนโลยี",
     major: "บูรณาการอุตสาหกรรมดิจิทัล",
     roomID: null,
@@ -22,7 +23,8 @@ const data = [
     firsname: "อัมเรศ",
     lastname: "อิตุพร",
     sex: "Male",
-    imageURL: "image_dormitory/imageStudent/02.jpg",
+    imageURL:
+      "https://i.pinimg.com/originals/0a/4e/03/0a4e036edf88a3a6416f6c54807d4841.jpg",
     faculty: "ศิลปะ สื่อ เเละเทคโนโลยี",
     major: "บูรณาการอุตสาหกรรมดิจิทัล",
     statusReserve: false,
@@ -37,7 +39,8 @@ const data = [
     firsname: "นฤมล",
     lastname: "จีนเจือพันธ์ุ",
     sex: "Female",
-    imageURL: "https://i.pinimg.com/564x/fe/22/d6/fe22d699826a467554c5d8a6bc437e84.jpg",
+    imageURL:
+      "https://i.pinimg.com/564x/fe/22/d6/fe22d699826a467554c5d8a6bc437e84.jpg",
     faculty: "ศิลปะ สื่อ เเละเทคโนโลยี",
     major: "บูรณาการอุตสาหกรรมดิจิทัล",
     statusReserve: false,
@@ -52,7 +55,8 @@ const data = [
     firsname: "รุ่งโรจน์",
     lastname: "แสนวงศ์",
     sex: "Male",
-    imageURL: "https://i.pinimg.com/564x/c8/44/49/c84449cc9d221e031eb6822e35f49efb.jpg",
+    imageURL:
+      "https://i.pinimg.com/564x/c8/44/49/c84449cc9d221e031eb6822e35f49efb.jpg",
     faculty: "แพทยศาสตร์",
     major: "แพทยศาสตรบัณฑิต",
     statusReserve: false,
@@ -67,7 +71,8 @@ const data = [
     firsname: "สุรเชษฐ์",
     lastname: "ปราสาทงาม",
     sex: "Male",
-    imageURL: "https://i.pinimg.com/736x/6c/cb/bf/6ccbbfbe23bfab719d6c1f30d3e96d2c.jpg",
+    imageURL:
+      "https://i.pinimg.com/736x/6c/cb/bf/6ccbbfbe23bfab719d6c1f30d3e96d2c.jpg",
     faculty: "ทันตแพทยศาสตร์",
     major: "ทันตแพทยศาสตรบัณฑิต",
     statusReserve: false,
@@ -82,7 +87,8 @@ const data = [
     firsname: "ภูวเดช",
     lastname: "งามขวัญ",
     sex: "Male",
-    imageURL: "https://i.pinimg.com/564x/95/a4/f9/95a4f966f811e5d48767bec29064a38b.jpg",
+    imageURL:
+      "https://i.pinimg.com/564x/95/a4/f9/95a4f966f811e5d48767bec29064a38b.jpg",
     faculty: "เภสัชศาสตร์",
     major: "เภสัชศาสตรบัณฑิต (5 ปี)",
     statusReserve: false,
@@ -97,7 +103,8 @@ const data = [
     firsname: "รัฐภาคย์",
     lastname: "วีรภัทรเมธี",
     sex: "Male",
-    imageURL: "https://i.pinimg.com/736x/ba/fd/f0/bafdf068eb727fe5012a349429a3d93e.jpg",
+    imageURL:
+      "https://i.pinimg.com/736x/ba/fd/f0/bafdf068eb727fe5012a349429a3d93e.jpg",
     faculty: "เภสัชศาสตร์",
     major: "เภสัชศาสตรบัณฑิต (6 ปี)",
     statusReserve: false,
@@ -112,7 +119,8 @@ const data = [
     firsname: "ติณณภพ",
     lastname: "สุวรรณวงศ์",
     sex: "Male",
-    imageURL: "https://i.pinimg.com/736x/fa/40/92/fa4092d2d64a5f069a8429afd17c8d1e.jpg",
+    imageURL:
+      "https://i.pinimg.com/736x/fa/40/92/fa4092d2d64a5f069a8429afd17c8d1e.jpg",
     faculty: "เภสัชศาสตร์",
     major: "บริบาลเภสัชกรรม",
     statusReserve: false,
@@ -127,7 +135,8 @@ const data = [
     firsname: "รชานนท์",
     lastname: "ก้องเกียรติสกุล",
     sex: "Male",
-    imageURL: "https://i.pinimg.com/736x/c3/c1/93/c3c1936f60bdff1292b7f41ad6a66689.jpg",
+    imageURL:
+      "https://i.pinimg.com/736x/c3/c1/93/c3c1936f60bdff1292b7f41ad6a66689.jpg",
     faculty: "เทคนิคการแพทย์",
     major: "หลักสูตรวิทยาศาสตรบัณฑิต",
     statusReserve: false,
@@ -142,7 +151,8 @@ const data = [
     firsname: "รังสิมันต์ ",
     lastname: "กลับเพชร",
     sex: "Male",
-    imageURL: "https://i.pinimg.com/564x/4a/ed/e4/4aede48529a8cfb8df3e38b63c8d4721.jpg",
+    imageURL:
+      "https://i.pinimg.com/564x/4a/ed/e4/4aede48529a8cfb8df3e38b63c8d4721.jpg",
     faculty: "เทคนิคการแพทย์",
     major: "เทคนิคการแพทย์",
     statusReserve: false,
@@ -157,7 +167,8 @@ const data = [
     firsname: "ณัฐ",
     lastname: "ทรัพย์ปรีชา",
     sex: "Male",
-    imageURL: "https://i.pinimg.com/564x/85/34/f8/8534f8097395850562f943533b01203f.jpg",
+    imageURL:
+      "https://i.pinimg.com/564x/85/34/f8/8534f8097395850562f943533b01203f.jpg",
     faculty: "เทคนิคการแพทย์",
     major: "กิจกรรมบำบัด",
     statusReserve: true,
@@ -172,7 +183,8 @@ const data = [
     firsname: "บัลยงก์",
     lastname: "งามขวัญ",
     sex: "Male",
-    imageURL: "https://i.pinimg.com/736x/c2/44/02/c244020a559db6b2b2e45b32a56c78a4.jpg",
+    imageURL:
+      "https://i.pinimg.com/736x/c2/44/02/c244020a559db6b2b2e45b32a56c78a4.jpg",
     faculty: "เทคนิคการแพทย์",
     major: "กายภาพบำบัด",
     statusReserve: true,
@@ -187,7 +199,8 @@ const data = [
     firsname: "ปิยาพร",
     lastname: "จันทรเกียรติ",
     sex: "Female",
-    imageURL: "https://i.pinimg.com/736x/a5/83/17/a5831747cf5537971f1a13ba8fe0c555.jpg",
+    imageURL:
+      "https://i.pinimg.com/736x/a5/83/17/a5831747cf5537971f1a13ba8fe0c555.jpg",
     faculty: "เทคนิคการแพทย์",
     major: "รังสีเทคนิค",
     statusReserve: true,
@@ -202,7 +215,8 @@ const data = [
     firsname: "สุชาดา",
     lastname: "พิกุลเทพ",
     sex: "Female",
-    imageURL: "https://i.pinimg.com/564x/f9/c9/2c/f9c92c7e10149595e4fdc959b58e2711.jpg",
+    imageURL:
+      "https://i.pinimg.com/564x/f9/c9/2c/f9c92c7e10149595e4fdc959b58e2711.jpg",
     faculty: "พยาบาลศาสตร์",
     major: "หลักสูตรพยาบาลศาสตรบัณฑิต",
     statusReserve: true,
@@ -217,7 +231,8 @@ const data = [
     firsname: "ฐิตา",
     lastname: "อรุณฉาย",
     sex: "Female",
-    imageURL: "https://i.pinimg.com/564x/fe/57/4c/fe574cc1af6c6e9b2892e01db867959e.jpg",
+    imageURL:
+      "https://i.pinimg.com/564x/fe/57/4c/fe574cc1af6c6e9b2892e01db867959e.jpg",
     faculty: "สัตวแพทยศาสตร์",
     major: "หลักสูตรสัตวแพทยศาสตรบัณฑิต",
     statusReserve: true,
@@ -232,7 +247,8 @@ const data = [
     firsname: "อัญริญา",
     lastname: "มั่นคงประสิทธิ์",
     sex: "Female",
-    imageURL: "https://i.pinimg.com/736x/0d/53/97/0d539767ec724ee2ae63e55542f71e82.jpg",
+    imageURL:
+      "https://i.pinimg.com/736x/0d/53/97/0d539767ec724ee2ae63e55542f71e82.jpg",
     faculty: "วิทยาศาสตร์",
     major: "สัตววิทยา",
     statusReserve: true,
@@ -247,7 +263,8 @@ const data = [
     firsname: "ธาวัน",
     lastname: "ปรีดาศิริกุล",
     sex: "Female",
-    imageURL: "https://i.pinimg.com/564x/e5/61/e9/e561e90643862473bbc0921ff35e9962.jpg",
+    imageURL:
+      "https://i.pinimg.com/564x/e5/61/e9/e561e90643862473bbc0921ff35e9962.jpg",
     faculty: "วิทยาศาสตร์",
     major: "สถิติ",
     statusReserve: true,
@@ -262,7 +279,8 @@ const data = [
     firsname: "จิราพร",
     lastname: "ชัยภูมิ",
     sex: "Female",
-    imageURL: "https://i.pinimg.com/564x/c2/55/af/c255af1e4b109dd9ef3d13f4dc51bbf1.jpg",
+    imageURL:
+      "https://i.pinimg.com/564x/c2/55/af/c255af1e4b109dd9ef3d13f4dc51bbf1.jpg",
     faculty: "วิทยาศาสตร์",
     major: "ฟิสิฟส์",
     statusReserve: true,
@@ -277,7 +295,8 @@ const data = [
     firsname: "ป้องเกียรติ",
     lastname: "เจริญผลวัฒนา",
     sex: "Male",
-    imageURL: "https://i.pinimg.com/564x/0c/bf/6b/0cbf6b1e986a6ac98a71fb73d95539c4.jpg",
+    imageURL:
+      "https://i.pinimg.com/564x/0c/bf/6b/0cbf6b1e986a6ac98a71fb73d95539c4.jpg",
     faculty: "วิทยาศาสตร์",
     major: "อัญมณีวิทยา",
     statusReserve: true,
@@ -307,7 +326,8 @@ const data = [
     firsname: "พัชรวรรธ",
     lastname: "ประชายุต",
     sex: "Male",
-    imageURL: "https://i.pinimg.com/736x/5d/67/19/5d671998b300c22a0e084165c48a5bcc.jpg",
+    imageURL:
+      "https://i.pinimg.com/736x/5d/67/19/5d671998b300c22a0e084165c48a5bcc.jpg",
     faculty: "วิศวกรรมศาสตร์",
     major: "วิศวกรรมสิ่งแวดล้อม",
     statusReserve: true,
@@ -322,7 +342,8 @@ const data = [
     firsname: "นัทธา",
     lastname: "วัชรโสภณ",
     sex: "Male",
-    imageURL: "https://i.pinimg.com/736x/59/2b/72/592b728958053e56429f888b5c093e4b.jpg",
+    imageURL:
+      "https://i.pinimg.com/736x/59/2b/72/592b728958053e56429f888b5c093e4b.jpg",
     faculty: "เกษตรศาสตร์",
     major: "เศรษฐศาสตร์เกษตร",
     statusReserve: true,
@@ -337,7 +358,8 @@ const data = [
     firsname: "ธฤติพันธ์",
     lastname: "แสงกระจ่าง",
     sex: "Male",
-    imageURL: "https://i.pinimg.com/736x/5c/27/09/5c2709788a8dbe49c39dc05a5d010ce7.jpg",
+    imageURL:
+      "https://i.pinimg.com/736x/5c/27/09/5c2709788a8dbe49c39dc05a5d010ce7.jpg",
     faculty: "อุตสาหกรรมเกษตร",
     major: "เทคโนโลยีการบรรจุ",
     statusReserve: true,
@@ -352,7 +374,8 @@ const data = [
     firsname: "ปิติพงศ์",
     lastname: "คำทอง",
     sex: "Male",
-    imageURL: "https://i.pinimg.com/564x/f3/8d/b4/f38db43d12fbf8bb522696d0c0ca874d.jpg",
+    imageURL:
+      "https://i.pinimg.com/564x/f3/8d/b4/f38db43d12fbf8bb522696d0c0ca874d.jpg",
     faculty: "อุตสาหกรรมเกษตร",
     major: "วิศวกรรมกระบวนการอาหาร",
     statusReserve: true,
@@ -367,7 +390,8 @@ const data = [
     firsname: "ธาม",
     lastname: "เจริญกาณต์",
     sex: "Male",
-    imageURL: "https://i.pinimg.com/564x/f2/c5/e8/f2c5e87044ecb9eb1476552a05078ee1.jpg",
+    imageURL:
+      "https://i.pinimg.com/564x/f2/c5/e8/f2c5e87044ecb9eb1476552a05078ee1.jpg",
     faculty: "อุตสาหกรรมเกษตร",
     major: "วิทยาศาสตร์และเทคโนโลยีการอาหาร",
     statusReserve: true,
@@ -382,7 +406,8 @@ const data = [
     firsname: "ภัทรพร",
     lastname: "เกียรติโกศล",
     sex: "Female",
-    imageURL: "https://i.pinimg.com/736x/25/c1/dd/25c1dd858a1e2c218a804adc596a558b.jpg",
+    imageURL:
+      "https://i.pinimg.com/736x/25/c1/dd/25c1dd858a1e2c218a804adc596a558b.jpg",
     faculty: "มนุษยศาสตร์",
     major: "สารสนเทศศึกษา",
     statusReserve: true,
@@ -412,7 +437,8 @@ const data = [
     firsname: "กาญจนี",
     lastname: "ปรีดาศิริกุล",
     sex: "Female",
-    imageURL: "https://i.pinimg.com/564x/15/5d/35/155d35a5cb644f9dd41b661f7cb83621.jpg",
+    imageURL:
+      "https://i.pinimg.com/564x/15/5d/35/155d35a5cb644f9dd41b661f7cb83621.jpg",
     faculty: "มนุษยศาสตร์",
     major: "มนุษยศาสตร์",
     statusReserve: true,
@@ -427,7 +453,8 @@ const data = [
     firsname: "จีรารัตน์",
     lastname: "พงศ์พิโรจ",
     sex: "Female",
-    imageURL: "https://i.pinimg.com/736x/ad/3b/77/ad3b77ef1a630b536b95499bde048c5e.jpg",
+    imageURL:
+      "https://i.pinimg.com/736x/ad/3b/77/ad3b77ef1a630b536b95499bde048c5e.jpg",
     faculty: "ศิลปะ สื่อ เเละเทคโนโลยี",
     major: "บูรณาการอุตสาหกรรมดิจิทัล",
     statusReserve: true,
@@ -442,7 +469,8 @@ const data = [
     firsname: "เมนิลา",
     lastname: "สำราญทรัพย์",
     sex: "Female",
-    imageURL: "https://i.pinimg.com/564x/b3/c2/13/b3c213c773441b67a6e4d3d3a5547fde.jpg",
+    imageURL:
+      "https://i.pinimg.com/564x/b3/c2/13/b3c213c773441b67a6e4d3d3a5547fde.jpg",
     faculty: "มนุษยศาสตร์",
     major: "จิตวิทยา",
     statusReserve: true,
@@ -457,7 +485,8 @@ const data = [
     firsname: "ปุณพจน์",
     lastname: "สวัสดิวงศ์",
     sex: "Male",
-    imageURL: "https://i.pinimg.com/564x/ae/ff/cd/aeffcdbb09bc9920ee3764758346f60a.jpg",
+    imageURL:
+      "https://i.pinimg.com/564x/ae/ff/cd/aeffcdbb09bc9920ee3764758346f60a.jpg",
     faculty: "ศึกษาศาสตร์",
     major: "ภาษาไทย",
     statusReserve: true,
@@ -472,7 +501,8 @@ const data = [
     firsname: "วรยศ",
     lastname: "จันทรประการ",
     sex: "Male",
-    imageURL: "https://i.pinimg.com/564x/18/d7/8a/18d78ac4791d06ac103024b95ca1f2f7.jpg",
+    imageURL:
+      "https://i.pinimg.com/564x/18/d7/8a/18d78ac4791d06ac103024b95ca1f2f7.jpg",
     faculty: "วิจิตรศิลป์",
     major: "ศิลปะไทย",
     statusReserve: true,
@@ -487,7 +517,8 @@ const data = [
     firsname: "ชรัณ",
     lastname: "มั่นคงประสิทธิ์",
     sex: "Male",
-    imageURL: "https://i.pinimg.com/564x/69/2d/42/692d42320582afc0ce44a3a3aa280c45.jpg",
+    imageURL:
+      "https://i.pinimg.com/564x/69/2d/42/692d42320582afc0ce44a3a3aa280c45.jpg",
     faculty: "ศิลปะ สื่อ เเละเทคโนโลยี",
     major: "บูรณาการอุตสาหกรรมดิจิทัล",
     statusReserve: true,
@@ -502,7 +533,8 @@ const data = [
     firsname: "บรรณวรรณ",
     lastname: "เกียรติบวรสกุล",
     sex: "Male",
-    imageURL: "https://i.pinimg.com/564x/06/7e/88/067e884dc7f3a58a97969d21dc0d3f1e.jpg",
+    imageURL:
+      "https://i.pinimg.com/564x/06/7e/88/067e884dc7f3a58a97969d21dc0d3f1e.jpg",
     faculty: "ศิลปะไทย",
     major: "การออกแบบ",
     statusReserve: true,
@@ -517,7 +549,8 @@ const data = [
     firsname: "ชุติมณฑน์",
     lastname: "สกุลวงศ์",
     sex: "Male",
-    imageURL: "https://i.pinimg.com/564x/d6/a9/af/d6a9afe230a2caa0c13a27b83878b8eb.jpg",
+    imageURL:
+      "https://i.pinimg.com/564x/d6/a9/af/d6a9afe230a2caa0c13a27b83878b8eb.jpg",
     faculty: "บริหารธุรกิจ",
     major: "วิชาการตลาด",
     statusReserve: true,

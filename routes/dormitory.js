@@ -107,8 +107,10 @@ router.delete("/:id", (req, res) => {
   }
 });
 
-router.get("/img/:file", (req, res) => {
-  const filePath = `${process.cwd()}/assets/img/dormitory1/${req.params.file}`;
+router.get("/img/:id/:file", (req, res) => {
+  const filePath = `${process.cwd()}/assets/img/dormitory${req.params.id}/${
+    req.params.file
+  }`;
   res.sendFile(filePath);
 });
 
