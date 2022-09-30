@@ -28,6 +28,23 @@ router.get("/", (req, res) => {
             rooms: filteredRoom,
           };
         }));
+    !filters.search
+      ? null
+      : (room = room.map((v) => {
+          const filteredRoom = v.rooms
+            .map((v) => {
+              if (v.roomNo == filters.search) {
+                return v;
+              }
+            })
+            .filter((v) => v != undefined);
+
+          console.log(filteredRoom);
+          return {
+            ...v,
+            rooms: filteredRoom,
+          };
+        }));
     // const rooms = data.filter((room) => {
     //   let isValid = true;
     //   for()
@@ -88,6 +105,11 @@ router.delete("/:id", (req, res) => {
   } catch (err) {
     console.error(err);
   }
+});
+
+router.get("/img/:file", (req, res) => {
+  const filePath = `${process.cwd()}/assets/img/dormitory1/${req.params.file}`;
+  res.sendFile(filePath);
 });
 
 module.exports = router;
