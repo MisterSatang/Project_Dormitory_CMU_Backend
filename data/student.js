@@ -1,52 +1,57 @@
-
 const data = [
   {
     id: 1,
     username: 642110329,
-    password: 123,
-    name: 'สตางค์ บุตรสัย',
-    imageURL: 'image_dormitory/imageStudent/01.jpg',
-    faculty: 'ศิลปะ สื่อ เเละเทคโนโลยี',
-    major: 'บูรณาการอุตสาหกรรมดิจิทัล',
-    reserve: {
-        statusReserve: '', buildingNo: 0, roomNo: ''
-    }
+    password: 111,
+    firsname: "สตางค์",
+    lastname: "บุตรสัย",
+    sex: "Male",
+    imageURL: "image_dormitory/imageStudent/01.jpg",
+    faculty: "ศิลปะ สื่อ เเละเทคโนโลยี",
+    major: "บูรณาการอุตสาหกรรมดิจิทัล",
+    statusReserve: true,
+    buildingNo: 2,
+    roomNo: "201",
   },
   {
     id: 2,
     username: 642110330,
-    password: 123,
-    name: 'สมมติ สมมาตร',
-    imageURL: 'image_dormitory/imageStudent/01.jpg',
-    faculty: 'ศิลปะ สื่อ เเละเทคโนโลยี',
-    major: 'บูรณาการอุตสาหกรรมดิจิทัล',
-    reserve:{
-        statusReserve: '', buildingNo: 0, roomNo: ''
-    }
+    password: 222,
+    firsname: "นายกอ",
+    lastname: "กอขอคอ",
+    sex: "Male",
+    imageURL: "image_dormitory/imageStudent/01.jpg",
+    faculty: "ศิลปะ สื่อ เเละเทคโนโลยี",
+    major: "บูรณาการอุตสาหกรรมดิจิทัล",
+    statusReserve: false,
+    buildingNo: 0,
+    roomNo: "",
   },
   {
-    id: 5,
-    username: 642110330,
-    password: 123,
-    name: 'สมมติ สมมาตร',
-    imageURL: 'image_dormitory/imageStudent/01.jpg',
-    faculty: 'ศิลปะ สื่อ เเละเทคโนโลยี',
-    major: 'บูรณาการอุตสาหกรรมดิจิทัล',
-    reserve:{
-        statusReserve: '', buildingNo: 0, roomNo: ''
-    }
+    id: 3,
+    username: 642110331,
+    password: 333,
+    firsname: "สมมติ",
+    lastname: "สมมาตร",
+    sex: "Male",
+    imageURL: "image_dormitory/imageStudent/01.jpg",
+    faculty: "ศิลปะ สื่อ เเละเทคโนโลยี",
+    major: "บูรณาการอุตสาหกรรมดิจิทัล",
+    statusReserve: true,
+    buildingNo: 2,
+    roomNo: "201",
   },
   {
     id: 10,
     username: 642110330,
     password: 123,
-    name: 'สมมติ สมมาตร',
-    imageURL: 'image_dormitory/imageStudent/01.jpg',
-    faculty: 'ศิลปะ สื่อ เเละเทคโนโลยี',
-    major: 'บูรณาการอุตสาหกรรมดิจิทัล',
-    reserve:{
-        statusReserve: '', buildingNo: 0, roomNo: ''
-    }
+    name: "สมมติ สมมาตร",
+    imageURL: "image_dormitory/imageStudent/01.jpg",
+    faculty: "ศิลปะ สื่อ เเละเทคโนโลยี",
+    major: "บูรณาการอุตสาหกรรมดิจิทัล",
+    statusReserve: false,
+    buildingNo: 0,
+    roomNo: "",
   },
 ];
 module.exports = data;

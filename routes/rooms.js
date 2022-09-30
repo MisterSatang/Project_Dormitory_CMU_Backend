@@ -25,7 +25,7 @@ router.post("/:id", (req, res) => {
 });
 
 router.put("/:id/:idRoom", (req, res) => {
-  const { roomNo, numMax } = req.body;
+  const { floor, roomNo, numMax, numStudent } = req.body;
 
   const dormitoryId = Number.parseInt(req.params.id);
   const dormitory = data.find((dormitory) => dormitory.id === dormitoryId);
@@ -33,8 +33,10 @@ router.put("/:id/:idRoom", (req, res) => {
   const roomId = Number.parseInt(req.params.idRoom);
   const room = dormitory.rooms.find((room) => room.id === roomId);
 
+  room.floor = floor;
   room.roomNo = roomNo;
   room.numMax = numMax;
+  room.numStudent = numStudent;
 
   res.json(room);
 });
