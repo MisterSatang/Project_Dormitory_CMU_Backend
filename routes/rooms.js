@@ -59,12 +59,16 @@ router.put("/:id", (req, res) => {
   res.json(room);
 });
 
-router.delete("/:id/:numRoom", (req, res) => {
+router.delete("/:id", (req, res) => {
   try {
+    const numRoom = req.query;
+
     const dormitoryId = Number.parseInt(req.params.id);
     const dormitory = data.find((dormitory) => dormitory.id === dormitoryId);
-    const roomId = Number.parseInt(req.params.idRoom);
-    const roomIndex = dormitory.rooms.findIndex((room) => room.id === roomId);
+
+    const roomIndex = dormitory.rooms.findIndex(
+      (room) => room.roomNo == numRoom.roomNo
+    );
 
     dormitory.rooms.splice(roomIndex, 1);
     res.sendStatus(204);
