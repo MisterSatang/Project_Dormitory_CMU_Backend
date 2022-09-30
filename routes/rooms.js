@@ -44,17 +44,15 @@ router.put("/:id/:idRoom", (req, res) => {
 
 router.put("/:id", (req, res) => {
   const numRoom = req.query;
-  const { floor, roomNo, numMax, numStudent } = req.body;
+  const { floor, roomNo, numMax } = req.body;
 
   const dormitoryId = Number.parseInt(req.params.id);
   const dormitory = data.find((dormitory) => dormitory.id === dormitoryId);
 
   const room = dormitory.rooms.find((room) => room.roomNo == numRoom.roomNo);
 
-  room.floor = floor;
   room.roomNo = roomNo;
   room.numMax = numMax;
-  room.numStudent = numStudent;
 
   res.json(room);
 });
